@@ -1,6 +1,6 @@
 import React from "react";
 
-const prefix = 'https://raw.githubusercontent.com/blocage/leetcode-algorithms/main/.github/images/';
+const prefix = 'https://raw.githubusercontent.com/innuendos/pupsichek/main/.github/images/';
 
 export default class Destination extends React.Component {
   setHoverOn() {

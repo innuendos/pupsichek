@@ -2,7 +2,7 @@ export default graphSpecificInfo;
 
 function graphSpecificInfo(graphName) {
   switch(graphName) {
-    case 'leetcode':
+    case 'pupsichek':
       return new PackagesGraph(graphName);
   }
   return new DefaultGraph(graphName);

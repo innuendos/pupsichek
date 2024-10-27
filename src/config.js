@@ -1,3 +1,3 @@
 export default {
-  dataUrl: '//raw.githubusercontent.com/blocage/leetcode-algorithms/gh-pages/data/'
+  dataUrl: '//raw.githubusercontent.com/innuendos/pupsichek/gh-pages/data/'
 };
