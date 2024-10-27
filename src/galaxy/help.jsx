@@ -38,6 +38,10 @@ function help(x) {
           <h3>Пупсиченские управления</h3>
             <table><tbody>
       <tr>
+      <td><code>H</code></td>
+      <td>Показать управления</td>
+      </tr>
+      <tr>
       <td><code>W</code></td>
       <td>Вперед</td>
       </tr>
