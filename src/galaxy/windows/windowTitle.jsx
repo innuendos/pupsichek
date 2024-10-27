@@ -45,11 +45,6 @@ function registerDataTemplates() {
     return (
       <h4 className='window-title'>
         <span className='node-name node-focus' id={ctx.id}>{ctx.nodeName}</span>
-        <span> has </span>
-        <strong> {ctx.degreeNumber} </strong>
-        <span className={ctx.connectionClassName === 'in' ? 'window-indegree' : 'window-outdgree'}>
-          {ctx.degreeKindName}
-        </span>
       </h4>
     );
   }, React));

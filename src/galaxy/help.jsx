@@ -35,61 +35,39 @@ function help(x) {
 
     return (
         <div className='navigation-help'>
-          <h3>Movement manual</h3>
+          <h3>Пупсиченские управления</h3>
             <table><tbody>
       <tr>
-        <td colSpan="2"><code className='important-key'>mouse wheel</code></td>
-        <td colSpan="2">show this help</td>
-      </tr>
-      <tr className='spacer-row'>
-        <td colSpan='2'><code className='important-key' >any key</code></td>
-        <td colSpan='2'>hide this help</td>
-      </tr>
-      <tr>
       <td><code>W</code></td>
-      <td>Move forward</td>
-      <td><code>Up</code></td>
-      <td>Rotate up</td>
+      <td>Вперед</td>
       </tr>
       <tr>
       <td><code>S</code></td>
-      <td>Move backward</td>
-      <td><code>Down</code></td>
-      <td>Rotate down</td>
+      <td>Назад</td>
       </tr>
       <tr>
       <td><code>A</code></td>
-      <td>Move left</td>
-      <td><code>Left</code></td>
-      <td>Rotate left</td>
+      <td>Налево</td>
       </tr>
       <tr>
       <td><code>D</code></td>
-      <td>Move right</td>
-      <td><code>Right</code></td>
-      <td>Rotate right</td>
+      <td>Направо</td>
       </tr>
       <tr>
-      <td><code>Q</code></td>
-      <td>Roll right</td>
       <td><code>R</code></td>
-      <td>Fly up</td>
+      <td>Выше</td>
       </tr>
       <tr>
-      <td><code>E</code></td>
-      <td>Roll left</td>
       <td><code>F</code></td>
-      <td>Fly down</td>
+      <td>Ниже</td>
       </tr>
       <tr>
-      <td><code>L</code></td>
-      <td>Toggle links</td>
       <td><code>spacebar</code></td>
-      <td>Toggle Steering</td>
+      <td>Управлять камерой</td>
       </tr>
       <tr>
       <td><code>shift</code></td>
-      <td>Move faster</td>
+      <td>Летать быстрее</td>
       <td><code></code></td>
       <td></td>
       </tr>

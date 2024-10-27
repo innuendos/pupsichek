@@ -163,10 +163,8 @@ function sceneRenderer(container) {
     var colors = view.colors();
     var sizes = view.sizes();
     for (var i = 0; i < sizes.length; ++i) {
-      var degree = inLinks[i];
-
-      if (outLinks[i]) colorNode(i * 3, colors, getRandomColor());
-      colorNode(i * 3, colors, parentNodeColor);
+      colorNode(i * 3, colors, getRandomColor());
+      sizes[i] = 40;
     }
     view.sizes(sizes);
     view.colors(colors);
