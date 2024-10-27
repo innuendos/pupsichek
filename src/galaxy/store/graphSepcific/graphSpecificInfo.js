@@ -11,11 +11,11 @@ function graphSpecificInfo(graphName) {
 function DefaultGraph(graphName) {
   this.graphName = graphName;
   this.getInDegreeLabel = function getInDegreeLabel(inDegreeValue) {
-    return 'in-degree';
+    return '';
   };
 
   this.getOutDegreeLabel = function getInDegreeLabel(outDegreeValue) {
-    return 'out-degree';
+    return '';
   };
 }
 
@@ -23,11 +23,11 @@ function PackagesGraph(graphName) {
   DefaultGraph.call(this, graphName);
 
   this.getInDegreeLabel = function getInDegreeLabel(inDegreeValue) {
-    return inDegreeValue === 1 ? 'solution' : 'solutions';
+    return inDegreeValue === 1 ? '' : '';
   };
 
   this.getOutDegreeLabel = function getInDegreeLabel(outDegreeValue) {
-    return outDegreeValue === 1 ? 'dependency' : 'dependencies';
+    return outDegreeValue === 1 ? '' : '';
   };
 }
 

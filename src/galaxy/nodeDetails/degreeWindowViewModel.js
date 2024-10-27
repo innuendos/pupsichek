@@ -40,9 +40,9 @@ function getDegreeName(connectionType, count) {
 
 function dependencyName(connectionType, count) {
   if (connectionType === 'in') {
-    return count === 1 ? 'solution' : 'solutions';
+    return count === 1 ? '' : '';
   }
-  return count === 1 ? 'soltuion' : 'dependencies';
+  return count === 1 ? '' : '';
 }
 
 function followerName(connectionType, count) {
